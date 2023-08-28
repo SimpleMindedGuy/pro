@@ -49,6 +49,7 @@ h1,h2,h3,h4,p{
   height: 340px;
   padding: 16px;
   bottom: 0px;
+  margin: 2rem 0rem;
 }
 
 .Today  img{
@@ -69,6 +70,7 @@ h1,h2,h3,h4,p{
   height: 450px !important;
   padding: 4rem !important;
   border-radius: 2rem;
+  max-width: 60%;
 }
 
 .Card-Container
@@ -113,6 +115,22 @@ button{
   font-size: large;
 }
 
+.Records
+{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 2rem 0rem;
+}
+
+.Card > p:first-of-type{
+  color: rgb(255, 61, 61);
+}
+
+.Card > p:last-of-type{
+  color: rgb(61, 122, 255);
+}
 /* GtkFileChooserDialog|FileChooserDialog|Dialog|FileChooser|FilePicker */
 
 /* (?!browser-window|browser) */
