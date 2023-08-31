@@ -101,11 +101,11 @@ function DashBoard() {
             </div>
             </section>
 
-          <h2>Previous Records </h2>
+          {/* <h2>More Records </h2> */}
           <section className='Records'>
-            <WeatherCard max={35} min={24} date={new Date((date.getDate()  - 1 ))} ></WeatherCard>
-            <WeatherCard max={32} min={21} date={new Date((date.getDate()  - 2 ))} ></WeatherCard>
-            <WeatherCard max={29} min={17} date={new Date((date.getDate()  - 3 ))}></WeatherCard>
+            <WeatherCard max={30} min={23} title={"Yesterday"} ></WeatherCard>
+            <WeatherCard max={parseInt(Weather.Temperature)} min={21} title={"Today"} ></WeatherCard>
+            <WeatherCard max={27} min={19} title={"Tomorrow"}></WeatherCard>
           </section>
         </>
           : 
